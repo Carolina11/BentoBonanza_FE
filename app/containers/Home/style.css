@@ -6,6 +6,7 @@
   min-height: 100vh;
   font-family: 'Handlee', cursive;
   color: #fff;
+  align-items: center;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Handlee');
@@ -16,6 +17,7 @@
   border: 9px solid #630;
   border-radius: 70px;
   height: 90vh;
+  width: 97%;
   background-color: #000;
   justify-content: space-around;
 }
@@ -34,6 +36,12 @@
   height: 45vh;
   float: left;
 }
+.menu {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  border: 1px solid #fff;
+}
 .bottomLeft {
   width: 100%;
   height: 45vh;
@@ -47,7 +55,7 @@
   right: 0;
   float: right;
   text-align: center;
-  font-size: 35px;
+  font-size: 49px;
   color: #fff;
 }
 .sakuraTopLeft01 {

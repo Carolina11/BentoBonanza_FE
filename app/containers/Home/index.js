@@ -10,6 +10,8 @@ import Helmet from 'react-helmet';
 import './style.css';
 import './styleM.css';
 
+import Slider from 'components/Slider';
+
 
 
 export default class Home extends React.PureComponent {
@@ -21,6 +23,7 @@ export default class Home extends React.PureComponent {
         <div className="outLineDiv">
           <div className="leftSide">
             <div className="topLeft">
+              <div className="menu">hiya</div>
             </div>
             <div className="bottomLeft">
             </div>
@@ -29,7 +32,9 @@ export default class Home extends React.PureComponent {
             <div className="fullRight">
             <div className="sakuraTopLeft01"></div>
             <div className="sakuraTopLeft02"></div>
-            <h1>bento<br/>bonanza</h1>
+              <div><p>bento<br/>bonanza</p>
+                <Slider/>
+              </div>
             </div>
           </div>
 
